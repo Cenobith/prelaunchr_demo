@@ -18,3 +18,7 @@
 .DS_Store
 
 .elasticbeanstalk
+
+# Ignore IDEA/RubyMine configs
+/.idea
+/.idea/*
