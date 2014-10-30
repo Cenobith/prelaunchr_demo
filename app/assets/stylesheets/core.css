@@ -309,8 +309,8 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
-	background-size: 610px 394px;
+	background: url(/assets/refer/Attacker.jpg) 0 0 no-repeat;
+	background-size: 450px 450px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -561,7 +561,7 @@ html.home{
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
-	width: 190px;
+	width: 300px;
 	border: 4px solid #074E6F;
 	position: absolute;
 	top: -285px;
