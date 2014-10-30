@@ -31,7 +31,7 @@ class User < ActiveRecord::Base
         },
         {
             'count' => 50,
-            "html" => "T12<br>Pistol",
+            "html" => "Defensive<br>Pistol",
             "class" => "five",
             "image" => ActionController::Base.helpers.asset_path("refer/t12.jpg")
         }
