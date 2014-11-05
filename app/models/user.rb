@@ -19,21 +19,21 @@ class User < ActiveRecord::Base
         },
         {
             'count' => 10,
-            "html" => "Spyderco<br>Knife",
+            "html" => "Spyderco Endura<br>Knife",
             "class" => "three",
             "image" => ActionController::Base.helpers.asset_path("refer/endura.jpg")
         },
         {
             'count' => 25,
-            "html" => "ATAK<br>Flashlight",
+            "html" => "Taser",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/flashlight.jpg")
+            "image" => ActionController::Base.helpers.asset_path("refer/taser.jpg")
         },
         {
             'count' => 50,
-            "html" => "Defensive<br>Pistol",
+            "html" => "Glock 19 Gen 4<br>Pistol",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/t12.jpg")
+            "image" => ActionController::Base.helpers.asset_path("refer/glock.jpg")
         }
     ]
 
