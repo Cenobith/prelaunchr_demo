@@ -4,6 +4,7 @@ Prelaunchr
 ## Note by Cenobith
 
 This is my modification Prelaunchr I made for demonstration purposes.
+Up to Rails 4.2.0
 
 ## Overview
 
