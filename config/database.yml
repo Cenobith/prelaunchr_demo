@@ -20,4 +20,4 @@ test:
 production:
   adapter: postgresql
   database: prelaunchr
-  host: localhost
+  host: HEROKU_POSTGRESQL_TEAL_URL
