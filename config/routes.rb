@@ -6,11 +6,11 @@ Prelaunchr::Application.routes.draw do
 
   root :to => "users#new"
 
-  match 'users/create' => 'users#create', :via => [:get, :post]
+  match 'users/create' => 'users#create', via: [:get, :post]
 
-  match 'refer-a-friend' => 'users#refer', :via => [:get, :post]
+  match 'refer-a-friend' => 'users#refer', via: [:get, :post]
 
-  match 'privacy-policy' => 'users#policy', :via => [:get, :post]
+  match 'privacy-policy' => 'users#policy', via: [:get, :post]
 
   unless Rails.application.config.consider_all_requests_local
       match '*not_found', to: 'users#redirect', :format => false
