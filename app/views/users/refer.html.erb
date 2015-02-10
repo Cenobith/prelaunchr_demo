@@ -1,19 +1,19 @@
 <div class="header">
     <div class="content">
-        <p class="logo brandon">Cenobith</p>
+        <p class="logo brandon">A SOCKS COMPANY</p>
         <p class="byline brandon">THANK YOU FOR SIGNING UP</p>
     </div>
 </div>
 
 <div class="hero">
     <div class="page-content clearfix">
-        <div class="mammoth">
-            <span class="need brandon">Personal Security Is<br>Evolving</span>
+        <div class="socks">
+            <span class="need brandon">NEW SOCKS<br>IT IS VERY IMPORTANT</span>
         </div>
         <div class="share-wrap">
             <p class="why brandon">Don't leave your friends behind</p>
             <p class="title brandon">INVITE FRIENDS &<br>DON'T Earn Product</p>
-            <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and don't earn Cenobith's goods for<br>each friend who signs up.</p>
+            <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and don't earn any socks for<br>each friend who signs up.</p>
             <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
             <% twitter_message = "#cenobith" %>
             <div class="social-links">
@@ -45,7 +45,7 @@
     <div class="page-content">
         <p class="callout brandon">Here's How It Works:</p>
         <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">EDC product</p></li>
+            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">SOCKS</p></li>
             <% stops.each do |stop| %>
                 <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
                     <div class="circle"><%= stop["count"] %></div>

@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "One<br>Sock",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/inferno.jpg")
+            "image" =>  ActionController::Base.helpers.asset_path("refer/sock.jpg")
         },
         {
             'count' => 10,
-            "html" => "Spyderco Endura<br>Knife",
+            "html" => "Two<br>Socks",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/endura.jpg")
+            "image" => ActionController::Base.helpers.asset_path("refer/2socks.jpg")
         },
         {
             'count' => 25,
-            "html" => "Taser",
+            "html" => "Three<br>Socks",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/taser.jpg")
+            "image" => ActionController::Base.helpers.asset_path("refer/3socks.jpg")
         },
         {
             'count' => 50,
-            "html" => "Glock 19 Gen 4<br>Pistol",
+            "html" => "Four<br>Socks",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/glock.jpg")
+            "image" => ActionController::Base.helpers.asset_path("refer/4socks.jpg")
         }
     ]
 

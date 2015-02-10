@@ -59,7 +59,7 @@ html.home{
 	font-size: 40px;
 	color: #074E6F;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin: 85px 0 0 436px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -69,7 +69,7 @@ html.home{
 	font-weight: bold;
 	color: #955F5D;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
+	margin: 10px 0 0 355px;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
@@ -89,8 +89,8 @@ html.home{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
-	background-size: 46px 19px;
+    /*background: url(/assets/home/key.png) 0 0 no-repeat;
+	background-size: 46px 19px;*/
 }
 
 #home .form-wrap .byline{
@@ -117,7 +117,7 @@ html.home{
 	width: 143px;
 	background: #074E6F;
 	float: left;
-	height: 37px;
+	height: 33px;
 	line-height: 37px;
 	color: #FFF;
 	font-size: 13px;
@@ -289,15 +289,16 @@ html.home{
 
 #refer .header .logo{
 	font-weight: normal;
-	font-size: 0;
-	line-height: 0;
+	font-size: 15px;
+    color: #FFF;
+	line-height: 16px;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo.png) 0 0 no-repeat;
-	background-size: 106px 19px;
+	/*background: url(/assets/refer/logo.png) 0 0 no-repeat;
+	background-size: 106px 19px;*/
 	height: 19px;
-	width: 106px;
-	margin-top: 15px;
+	width: 100px;
+	margin-top: 10px;
 }
 
 #refer .hero{
@@ -306,17 +307,17 @@ html.home{
 	overflow: hidden;
 }
 
-#refer .mammoth{
+#refer .socks{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/Attacker.jpg) 0 0 no-repeat;
+	background: url(/assets/refer/socks.jpg) 0 0 no-repeat;
 	background-size: 450px 450px;
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 0px;
 	float: left;
 }
 
-#refer .mammoth .need{
+#refer .socks .need{
 	color: #FFF;
 	font-size: 38px;
 	text-transform: uppercase;
@@ -636,17 +637,17 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#home .form-wrap .key{
-		background: url(/assets/home/key@2x.png) 0 0 no-repeat;
-		background-size: 46px 19px;
+		/*background: url(/assets/home/key@2x.png) 0 0 no-repeat;
+		background-size: 46px 19px;*/
 	}
 
 	#refer .header .logo{
-		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
-		background-size: 106px 19px;
+		/*background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
+		background-size: 106px 19px;*/
 	}
 
-	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+	#refer .socks{
+		background: url(/assets/refer/socks.jpg) 0 0 no-repeat;
 		background-size: 610px 394px;
 	}
 

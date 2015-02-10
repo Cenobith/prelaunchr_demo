@@ -4,7 +4,10 @@ Prelaunchr
 ## Note by Cenobith
 
 This is my modification Prelaunchr I made for demonstration purposes.
-Up to Rails 4.2.0
+
+* Up to Rails 4.2.0
+* Cleaned assets
+* Changed subject
 
 ## Overview
 
