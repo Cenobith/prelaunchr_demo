@@ -289,16 +289,16 @@ html.home{
 
 #refer .header .logo{
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 13px;
     color: #FFF;
-	line-height: 16px;
+	line-height: 14px;
 	margin-right: 14px;
 	letter-spacing: 1px;
 	/*background: url(/assets/refer/logo.png) 0 0 no-repeat;
 	background-size: 106px 19px;*/
 	height: 19px;
 	width: 100px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 #refer .hero{

@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "One<br>Sock",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/sock.jpg")
+            "image" =>  ActionController::Base.helpers.asset_path("assets/refer/sock.jpg")
         },
         {
             'count' => 10,
             "html" => "Two<br>Socks",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/2socks.jpg")
+            "image" => ActionController::Base.helpers.asset_path("assets/refer/2socks.jpg")
         },
         {
             'count' => 25,
             "html" => "Three<br>Socks",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/3socks.jpg")
+            "image" => ActionController::Base.helpers.asset_path("assets/refer/3socks.jpg")
         },
         {
             'count' => 50,
             "html" => "Four<br>Socks",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/4socks.jpg")
+            "image" => ActionController::Base.helpers.asset_path("assets/refer/4socks.jpg")
         }
     ]
 
