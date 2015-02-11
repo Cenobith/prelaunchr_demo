@@ -19,5 +19,7 @@ test:
 
 production:
   adapter: postgresql
-  database: prelaunchr
-  host: HEROKU_POSTGRESQL_TEAL_URL
+  database: d1rm92jp8lrca7
+  username: fgnbgprdgrfbes
+  password: Cak0rfDL0MAQdWNjGNhK4o2jVX
+  host: ec2-54-195-241-178.eu-west-1.compute.amazonaws.com
