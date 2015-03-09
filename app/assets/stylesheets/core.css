@@ -691,12 +691,30 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 }
 
+/* footer */
 
+footer {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #999;
+}
 
+footer a {
+    color: #555;}
 
-
-
-
+footer ul {
+    float: right;
+    list-style: none;}
+footer li {
+    float: left;
+    margin-left: 10px;
+}
+footer small {
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
 
 
 
