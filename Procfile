@@ -1,2 +1,1 @@
-web: bundle exec unicorn -p $PORT -c ./config/unicorn.rb
-worker:  bundle exec rake jobs:work
+web: bundle exec puma -t 5:5 -p $PORT -C ./config/puma.rb
